@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jamwiki-core" />
+        <module name="bliki-parser" />
+        <module name="jamwiki-web" />
+        <module name="jamwiki-jflex-parser-tags" />
+        <module name="jamwiki-war" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="addons" target="1.5" />
+      <module name="bliki-parser" target="1.5" />
+      <module name="jamwiki" target="1.5" />
+      <module name="jamwiki-core" target="1.5" />
+      <module name="jamwiki-jflex-parser-tags" target="1.5" />
+      <module name="jamwiki-war" target="1.5" />
+      <module name="jamwiki-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bliki-parser" options="-Xlint:unchecked" />
+      <module name="jamwiki-core" options="-Xlint:unchecked" />
+      <module name="jamwiki-jflex-parser-tags" options="-Xlint:unchecked" />
+      <module name="jamwiki-war" options="-Xlint:unchecked" />
+      <module name="jamwiki-web" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>

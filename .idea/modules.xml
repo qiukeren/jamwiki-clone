@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/addons/addons.iml" filepath="$PROJECT_DIR$/addons/addons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addons/bliki-parser/bliki-parser.iml" filepath="$PROJECT_DIR$/addons/bliki-parser/bliki-parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jamwiki.iml" filepath="$PROJECT_DIR$/.idea/jamwiki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamwiki-core/jamwiki-core.iml" filepath="$PROJECT_DIR$/jamwiki-core/jamwiki-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addons/jamwiki-jflex-parser-tags/jamwiki-jflex-parser-tags.iml" filepath="$PROJECT_DIR$/addons/jamwiki-jflex-parser-tags/jamwiki-jflex-parser-tags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamwiki-war/jamwiki-war.iml" filepath="$PROJECT_DIR$/jamwiki-war/jamwiki-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamwiki-web/jamwiki-web.iml" filepath="$PROJECT_DIR$/jamwiki-web/jamwiki-web.iml" />
+    </modules>
+  </component>
+</project>

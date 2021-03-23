@@ -30,6 +30,7 @@ called it means that a catastrophic error has occurred.
     isErrorPage="true"
     contentType="text/html; charset=utf-8"
 %>
+<%@ page import="org.apache.commons.lang3.exception.ExceptionUtils" %>
 
 <%@ include file="page-init.jsp" %>
 
@@ -51,7 +52,7 @@ if (exception != null) {
 	// escape XML to avoid potential XSS attacks such as /wiki/en/Special:Login?message=<script>alert("xss")</script>
 	errorMessage = StringEscapeUtils.escapeXml(exception.toString());
 	if (exception.getCause() != null) {
-		errorMessage += " / " + StringEscapeUtils.escapeXml(exception.getCause().toString());
+		errorMessage += " / " + StringEscapeUtils.escapeXml(ExceptionUtils.getStackTrace(exception));
 	}
 }
 %>
