@@ -3,3 +3,8 @@ Mirror of jamwiki from http://jamwiki.org and https://jamwiki.svn.sourceforge.ne
 
 # fix build
 Now you can use `mvn -DskipTests=true package` to package this war.
+
+# Notice
+
+Use jdk8.
+Jdk 11 cannot build.
